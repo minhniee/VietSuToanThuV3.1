@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "outDir": "dist/mailer"
+  },
+  "include": [
+    "lib/mailer/*.ts",
+  "lib/auth.ts"
+  ]
+} 
