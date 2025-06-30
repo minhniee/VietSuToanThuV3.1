@@ -15,13 +15,14 @@ import {
 ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend, ArcElement);
 
 const fakeStats = {
-  totalUsers: 153,
-  loggedIn: 83,
-  registered: 151,
-  paidUsers: 57,
+  totalUsers: 153 + 100,           // 253
+  loggedIn: 83 + 60,               // giả sử 60/100 người mới đăng nhập → 143
+  registered: 151 + 100,           // 251
+  paidUsers: 57 + 50,              // 107
   basicPlanPrice: 89000,
-  revenue: 57 * 89000,
+  revenue: (57 + 50) * 89000       // 107 * 89,000 = 9,683,000
 };
+
 
 const barData = {
   labels: ['Tổng user', 'Đăng nhập', 'Đăng ký', 'Trả phí'],
@@ -56,9 +57,9 @@ const pieData = {
 
 const fakeReviews = [
   {
-    name: 'Lê Thị Mai Hoa',
-    rating: 5,
-    comment: 'Web rất tuyệt vời, mình đã học được rất nhiều kiến thức bổ ích!'
+    name: 'Lê Mai Anh',
+    rating: 4,
+    comment: 'Giao diện khá thân thiện, nhưng có một số bài chưa rõ ràng lắm.'
   },
   {
     name: 'Tống Quốc Đạt',
@@ -72,14 +73,39 @@ const fakeReviews = [
   },
   {
     name: 'Trịnh Quốc Toản',
-    rating: 5,
-    comment: 'Nội dung phong phú, cập nhật liên tục.'
+    rating: 4,
+    comment: 'Nội dung phong phú, nhưng có thể thêm nhiều ví dụ minh hoạ hơn.'
   },
   {
     name: 'Lê Thị Diệu Huyền',
-    rating: 5,
-    comment: 'Tôi sẽ giới thiệu cho bạn bè cùng sử dụng.'
+    rating: 3,
+    comment: 'Web ổn, nhưng cần cải thiện tốc độ tải và điều hướng.'
   },
+  {
+    name: 'Nguyễn Nhật Linh',
+    rating: 5,
+    comment: 'Rất phù hợp với người mới bắt đầu, trình bày dễ hiểu.'
+  },
+  {
+    name: 'Phạm Thanh Tùng',
+    rating: 4,
+    comment: 'Có vài phần chưa được cập nhật, nhưng nhìn chung là tốt.'
+  },
+  {
+    name: 'Trần Thị Kim Ngân',
+    rating: 5,
+    comment: 'Tôi đã học được nhiều điều mới, rất đáng thử.'
+  },
+  {
+    name: 'Hoàng Quốc Huy',
+    rating: 3,
+    comment: 'Một số chức năng còn lỗi nhỏ, mong được khắc phục sớm.'
+  },
+  {
+    name: 'Vũ Minh Trang',
+    rating: 4,
+    comment: 'Hệ thống học khá trực quan, nhưng phần quiz nên đa dạng hơn.'
+  }
 ];
 
 // Biểu đồ rating: 5 sao: 5, 4 sao: 2, 3 sao: 1, 2 sao: 0, 1 sao: 0
