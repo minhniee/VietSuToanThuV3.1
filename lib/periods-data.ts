@@ -249,7 +249,7 @@ export const periodsData: Period[] = [
         completed: false,
         hasQuiz: true,
         hasVideo: true,
-        videoUrl: "https://www.youtube.com/embed/FC5Rf5daGz0",
+        videoUrl: "https://www.youtube.com/embed/nk3D-CfjIOk?si=TdfKq57a_IhMXm8m",
         mindMapUrl: "/trung_trac_trung_nhi_mm.png",
         content: {
           introduction:
@@ -275,7 +275,8 @@ export const periodsData: Period[] = [
         type: "lesson",
         completed: false,
         hasQuiz: true,
-        hasVideo: false,
+        hasVideo: true,
+        videoUrl: "https://www.youtube.com/embed/6SVQ12dXV3c?si=446MB_cmNHlKPoOC",
         imageUrl: "/placeholder.svg?height=400&width=600&text=Bà+Triệu+Khởi+Nghĩa",
         mindMapUrl: "/placeholder.svg?height=600&width=800&text=Mind+Map+Bà+Triệu",
         content: {
@@ -319,7 +320,7 @@ export const periodsData: Period[] = [
         completed: false,
         hasQuiz: true,
         hasVideo: true,
-        videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        videoUrl: "https://www.youtube.com/embed/sB6bKq2QsdE?si=Ai1OevU5pEUvkbzU",
         mindMapUrl: "/placeholder.svg?height=600&width=800&text=Mind+Map+Nhà+Ngô",
         content: {
           introduction: "Sau chiến thắng Bạch Đằng năm 938, Ngô Quyền đã thiết lập nền độc lập đầu tiên, mở ra thời kỳ tự chủ của dân tộc Việt Nam[7].",
@@ -344,8 +345,8 @@ export const periodsData: Period[] = [
         type: "lesson",
         completed: false,
         hasQuiz: true,
-        hasVideo: false,
-        imageUrl: "/placeholder.svg?height=400&width=600&text=Đinh+Tiên+Hoàng",
+        hasVideo: true,
+        videoUrl: "https://www.youtube.com/embed/T3ewSJCiKSM?si=MvnHV1vR_leIH4PE",
         mindMapUrl: "/placeholder.svg?height=600&width=800&text=Mind+Map+Đinh+Tiền+Lê",
         content: {
           introduction: "Sau thời kỳ loạn 12 sứ quân, Đinh Bộ Lĩnh đã thống nhất đất nước, lập nên nhà Đinh và đặt quốc hiệu là Đại Cồ Việt[7].",
@@ -498,8 +499,8 @@ export const periodsData: Period[] = [
         type: "lesson",
         completed: false,
         hasQuiz: true,
-        hasVideo: false,
-        imageUrl: "/placeholder.svg?height=400&width=600&text=Kháng+chiến+chống+Pháp",
+        hasVideo: true,
+        videoUrl: "https://www.youtube.com/embed/se1AI0sZVZw?si=Yq3bWt7wwJYkLWR6",
         mindMapUrl: "/placeholder.svg?height=600&width=800&text=Mind+Map+KC+Pháp",
         content: {
           introduction: "Sau ngày độc lập, thực dân Pháp quay trở lại xâm lược, nhân dân ta tiến hành cuộc kháng chiến 9 năm, kết thúc bằng chiến thắng Điện Biên Phủ năm 1954[8][12].",
@@ -528,8 +529,8 @@ export const periodsData: Period[] = [
         type: "lesson",
         completed: false,
         hasQuiz: true,
-        hasVideo: false,
-        imageUrl: "/placeholder.svg?height=400&width=600&text=Kháng+chiến+chống+Mỹ",
+        hasVideo: true,
+        videoUrl: "https://www.youtube.com/embed/mZ99SMWT61w?si=7IzrjorqC3wjpYoq",
         mindMapUrl: "/placeholder.svg?height=600&width=800&text=Mind+Map+KC+Mỹ",
         content: {
           introduction: "Miền Nam tiếp tục đấu tranh chống Mỹ và chính quyền Sài Gòn, kết thúc bằng Đại thắng mùa Xuân 1975, thống nhất đất nước[8][12][14].",
